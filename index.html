@@ -1,1 +1,260 @@
-a
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo Arruda | Desenvolvedor & Especialista em IA</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="glow-bg"></div>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Enzo<span>.dev</span></a>
+
+            <button class="mobile-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="badge">
+                <span class="badge-dot"></span> Disponível para novos projetos
+            </div>
+            <h1>Olá, eu sou <span class="highlight">Enzo Arruda</span></h1>
+            <p class="subtitle">Desenvolvedor de Sistemas &amp; Especialista em Produtividade com IA</p>
+
+            <div class="hero-btns">
+                <a href="#projetos" class="btn btn-primary">Ver Meus Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="container">
+        <div class="section-header">
+            <h2>Sobre Mim</h2>
+            <div class="underline"></div>
+        </div>
+        <p class="about-text">
+            Desenvolvedor focado na construção de soluções inteligentes e de alto desempenho, integrando uma base sólida
+            em engenharia de software ao ecossistema de <strong>Inteligência Artificial Generativa</strong>. Utilizo IAs
+            avançadas (como Gemini e ChatGPT) para otimizar o ciclo de vida de desenvolvimento, acelerar o debug e criar
+            arquiteturas robustas e escaláveis.
+        </p>
+    </section>
+
+    <!-- Formação -->
+    <section id="formacao" class="container">
+        <div class="section-header">
+            <h2>Formação &amp; Certificações</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🚀</span>
+                    <div>
+                        <h3>Bacharelado em Ciência da Computação</h3>
+                        <span class="card-institution">UNIFAJ • Início em 2027</span>
+                    </div>
+                </div>
+                <p>Formação superior focada nos fundamentos teóricos e práticos da computação, incluindo algoritmos
+                    avançados, engenharia de software, inteligência artificial, estruturas de dados e arquitetura de
+                    sistemas.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">🎓</span>
+                    <div>
+                        <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                        <span class="card-institution">Etec João Belarmino • Concluído em 2025</span>
+                    </div>
+                </div>
+                <p>Foco em lógica de programação, arquitetura de documentação, modelagem avançada de banco de dados,
+                    ciclo de vida do software e desenvolvimento full-stack.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-icon">⚡</span>
+                    <div>
+                        <h3>IA Generativa Aplicada à Programação</h3>
+                        <span class="card-institution">SENAI • Concluído em 2026</span>
+                    </div>
+                </div>
+                <p>Especialização em engenharia de prompts (Gemini, ChatGPT, Copilot), automação de fluxos de código,
+                    debug acelerado e workflows assistidos por IA.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="container">
+        <div class="section-header">
+            <h2>Projetos em Destaque</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="grid">
+            <div class="card card-project">
+                <h3>Análise de Currículo com IA</h3>
+                <p>Sistema automatizado de triagem de candidatos que utiliza algoritmos de IA para analisar, classificar
+                    e ranquear currículos com precisão.</p>
+                <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Gemini API</span>
+                    <span class="tag">IA Generativa</span>
+                </div>
+                <a href="https://github.com/Dev-Enzo-Arruda/Analise-de-Curriculos-Com-IA" target="_blank"
+                    class="project-link">
+                    Acessar Repositório
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="card card-project">
+                <h3>Bot de Atendimento Inteligente</h3>
+                <p>Chatbot conversacional contextualizado para e-commerce de eletrônicos, integrado à API do Gemini para
+                    resolução rápida de dúvidas.</p>
+                <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Gemini API</span>
+                    <span class="tag">Prompt Eng.</span>
+                </div>
+                <a href="https://github.com/Dev-Enzo-Arruda/SENAI-chat-falso-gpt-2026" target="_blank"
+                    class="project-link">
+                    Acessar Repositório
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="card card-project">
+                <h3>Simulador de Investimentos SAC vs PRICE</h3>
+                <p>Aplicação financeira para simulação comparativa de amortizações e financiamentos, calculando cenários
+                    em tempo real.</p>
+                <div class="tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                </div>
+                <a href="https://github.com/Dev-Enzo-Arruda/SENAI-financiamento" target="_blank" class="project-link">
+                    Acessar Repositório
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="card card-project">
+                <h3>Gerenciador de Endereços</h3>
+                <p>Ferramenta web para busca, validação e persistência de dados de endereços consumindo serviços de API
+                    REST.</p>
+                <div class="tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">ViaCEP API</span>
+                    <span class="tag">Web Storage</span>
+                </div>
+                <a href="https://github.com/Dev-Enzo-Arruda/SENAI-Enderecos" target="_blank" class="project-link">
+                    Acessar Repositório
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="container footer-content">
+            <h2>Vamos Construir Algo Juntos?</h2>
+            <p>Estou aberto a oportunidades profissionais, projetos freelance e conexões na área de tecnologia.</p>
+
+            <div class="social-links">
+                <!-- GitHub -->
+                <a href="https://github.com/Dev-Enzo-Arruda" target="_blank" class="social-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                    GitHub
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/19971687347" target="_blank" class="social-btn whatsapp-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                    </svg>
+                    WhatsApp
+                </a>
+
+                <!-- E-mail -->
+                <a href="mailto:devenzoarruda@gmail.com" class="social-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    E-mail
+                </a>
+            </div>
+
+            <p class="copyright">
+                &copy; 2026 Enzo Arruda. Desenvolvido com foco em alta performance.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script leve para alternar o menu mobile -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Fecha o menu ao clicar em qualquer link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
