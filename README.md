@@ -1,81 +1,71 @@
-# Portfólio | Enzo Arruda
+# Enzo Arruda | Portfólio
 
-Portfólio profissional de Enzo Arruda, desenvolvedor de sistemas com interesse em engenharia de software, inteligência artificial e criação de soluções web.
+Portfólio pessoal de Enzo Arruda, desenvolvido para apresentar sua trajetória na área de tecnologia, projetos e formas de contato.
 
-O site reúne informações sobre formação, certificações, projetos desenvolvidos e canais de contato em uma interface simples, responsiva e objetiva.
+## Sobre o site
 
-## Conteúdo
+A página reúne uma apresentação profissional, informações sobre formação e certificação, projetos selecionados e links de contato. O layout é responsivo e inclui navegação adaptada para dispositivos móveis.
 
-- Apresentação profissional
-- Formação técnica em Desenvolvimento de Sistemas
-- Certificação em Inteligências Artificiais Generativas aplicada à programação
-- Projetos em destaque com links para seus repositórios
-- Contato por GitHub e e-mail
+## Projetos
 
-## Projetos apresentados
+### Análise de Currículos com IA
 
-### Análise de Currículo com IA
+Aplicação que utiliza a API do Gemini para apoiar a análise e a classificação de currículos.
 
-Aplicação para análise e classificação de currículos, com o objetivo de automatizar etapas da triagem de candidatos.
-
-**Tecnologias:** JavaScript, Gemini API e IA generativa
-
-[Ver repositório](https://github.com/Dev-Enzo-Arruda/Analise-de-Curriculos-Com-IA)
+**Tecnologias:** JavaScript e Gemini API  
+[Acessar repositório](https://github.com/Dev-Enzo-Arruda/Analise-de-Curriculos-Com-IA)
 
 ### Bot de Atendimento Inteligente
 
-Chatbot integrado à API do Gemini para responder dúvidas frequentes com base no contexto de uma loja de eletrônicos.
+Chatbot para responder perguntas frequentes de clientes de uma loja de eletrônicos, com respostas baseadas no contexto fornecido.
 
-**Tecnologias:** JavaScript, Gemini API e IA generativa
+**Tecnologias:** JavaScript e Gemini API  
+[Acessar repositório](https://github.com/Dev-Enzo-Arruda/SENAI-chat-falso-gpt-2026)
 
-[Ver repositório](https://github.com/Dev-Enzo-Arruda/SENAI-chat-falso-gpt-2026)
+### Simulador de Financiamento SAC vs. PRICE
 
-### Simulador de Investimentos SAC vs. PRICE
+Simulador que permite comparar os sistemas de amortização SAC e PRICE em diferentes cenários de financiamento.
 
-Aplicação para simular cenários de financiamento e comparar os sistemas de amortização SAC e PRICE.
-
-**Tecnologias:** HTML, CSS e JavaScript
-
-[Ver repositório](https://github.com/Dev-Enzo-Arruda/SENAI-financiamento)
+**Tecnologias:** HTML, CSS e JavaScript  
+[Acessar repositório](https://github.com/Dev-Enzo-Arruda/SENAI-financiamento)
 
 ### Gerenciador de Endereços
 
-Aplicação para consultar, organizar e gerenciar endereços utilizando uma API de CEP e armazenamento local do navegador.
+Aplicação para consultar e organizar endereços, utilizando um serviço de consulta de CEP e armazenamento no navegador.
 
-**Tecnologias:** HTML, ViaCEP API e Web Storage API
+**Tecnologias:** HTML, ViaCEP API e Web Storage  
+[Acessar repositório](https://github.com/Dev-Enzo-Arruda/SENAI-Enderecos)
 
-[Ver repositório](https://github.com/Dev-Enzo-Arruda/SENAI-Enderecos)
+## Formação
+
+- Técnico em Desenvolvimento de Sistemas pela Etec João Belarmino, concluído em 2025.
+- Bacharelado em Ciência da Computação na UNIFAJ, com início previsto para 2027.
+- Formação em IA Generativa Aplicada à Programação pelo SENAI, concluída em 2026.
 
 ## Tecnologias do portfólio
 
 - HTML5
 - CSS3
 - JavaScript
-- Google Gemini
-- ViaCEP API
-- Web Storage API
+- Google Fonts (Plus Jakarta Sans)
+
+O menu para dispositivos móveis é controlado por JavaScript inserido diretamente em `index.html`.
 
 ## Como visualizar
 
-Como este é um projeto estático, não há dependências ou processo de build. Basta abrir o arquivo `portifolio.html` em um navegador.
+O projeto é estático e não exige instalação de dependências ou etapa de build. Abra `index.html` em um navegador ou publique os arquivos em um serviço de hospedagem de sites estáticos.
 
-Também é possível servir os arquivos localmente com qualquer servidor HTTP estático.
-
-## Estrutura
+## Arquivos
 
 ```text
 .
-├── portifolio.html  # Página principal
-├── style.css        # Estilos e layout
-├── script.js        # Arquivo reservado para comportamentos JavaScript
-└── README.md        # Documentação do projeto
+├── index.html
+├── style.css
+└── README.md
 ```
 
 ## Contato
 
 - GitHub: [Dev-Enzo-Arruda](https://github.com/Dev-Enzo-Arruda)
+- WhatsApp: [Enviar mensagem](https://wa.me/19971687347)
 - E-mail: [devenzoarruda@gmail.com](mailto:devenzoarruda@gmail.com)
-
----
-
-Desenvolvido por Enzo Arruda.
