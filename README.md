@@ -67,5 +67,5 @@ O projeto é estático e não exige instalação de dependências ou etapa de bu
 ## Contato
 
 - GitHub: [Dev-Enzo-Arruda](https://github.com/Dev-Enzo-Arruda)
-- WhatsApp: [Enviar mensagem](https://wa.me/19971687347)
+- WhatsApp: [Enviar Mensagem](https://wa.me/19971687347)
 - E-mail: [devenzoarruda@gmail.com](mailto:devenzoarruda@gmail.com)
